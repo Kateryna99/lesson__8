@@ -1,0 +1,418 @@
+
+/* ARTICLE */
+.about-course__container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.about-course__title {
+    margin-bottom: 40px;
+}
+.about-course__title h1{
+    color: rgb(30, 33, 44);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.about-course__text{
+    margin-bottom: 48px;
+}
+.about-course__text p{
+    line-height: 25.6px;
+}
+.you-learn__title {
+    margin-bottom: 24px;
+}
+.you-learn__title h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    color:rgb(30, 33, 44)
+}
+.you-learn__list {
+    margin-bottom: 50px;
+}
+.you-learn__list__box li:not(:last-child){
+    margin-bottom: 14px;
+}
+.you-learn__list__item {
+    padding-left: 30px;
+
+    background: url("../img/icons/vector.svg") 0 0 no-repeat;
+}
+.cody-fisher__title {
+    margin-bottom: 16px;
+}
+.cody-fisher__title h6{
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.cody-fisher__title h1{
+    font-size: 46px;
+    font-weight: 900;
+    color:rgb(30, 33, 44)
+}
+.cody-fisher-description {
+    margin-bottom: 32px;
+}
+.cody-fisher-description p{
+    font-size: 20px;
+    color: rgb(120, 122, 128);
+}
+.stats {
+    margin-bottom: 32px;
+}
+.stats__list li:nth-child(1) {
+    background: url("../img/icons/star.svg") 0 0 no-repeat;
+    padding-left: 24px;
+}
+.stats__list li:nth-child(2){
+    background: url("../img/icons/play.svg") 0 0 no-repeat;
+    padding-left: 24px;
+}
+.stats__list li:nth-child(3){
+   background: url("../img/icons/icon.svg") 0 0 no-repeat;
+   padding-left: 24px;
+}
+.stats__list li:not(:last-child){
+    margin-bottom: 4px;
+}
+.stats__list__item {
+    font-weight: 700;
+}
+.cody-fisher__text {
+    line-height: 25.6px;
+    margin-bottom: 40px;
+}
+
+.icons__container {
+    height: 25px;
+    max-width: 166px;
+    background-image: url("../img/icons/facebook.svg"), url("../img/icons/be.svg"), url("../img/icons/twitter.svg"), url("../img/icons/linked-In.svg");
+    background-position: left top, 45px, 93px, right;
+    background-repeat: no-repeat;
+} 
+
+/* I HAVE NO IDEA HOW TO FIX ITS POSITION IN ANOTHER WAY BECAUSE WE DID NOT LEARN POSITION YET, SO I DID IT WITH MARGIN HELP. HOPE IT IS OKEY RIGHT NOW  */
+.icons__cursor {
+    height: 22px;
+    background-image: url("../img/icons/cursor.svg");
+    background-repeat: no-repeat;
+    margin-top: -4px;
+    margin-left: 155px;
+}
+
+/* Experiment with pseudo */
+footer {
+  margin-top: 200px ;
+}
+.homework__container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.play__box {
+    margin-bottom: 150px;
+}
+.fa-play-circle-o {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 100px;
+    color: red;
+    background-color: rgb(224, 129, 129);
+    border: 4px solid red;
+    border-radius: 15%;
+}
+.fa-play-circle-o:hover {
+    border: 4px solid yellow;
+    color: yellow;
+    background-color: rgb(226, 226, 86);
+    text-shadow: 3px 3px black;
+}
+.fa-play-circle-o:active {
+    border: 4px solid green;
+    color: green;
+    background-color: rgb(83, 170, 83);
+}
+.lighter__wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.lighter__item__first,
+.lighter__item__second,
+.lighter__item__third {
+    margin: 0 auto;
+}
+.lighter__item__first {
+    display: none;
+    width: 280px;
+    padding: 100px;
+    border-radius: 50%;
+    background: rgb(64,153,106);
+    color: white;
+    background: radial-gradient(circle, rgba(64,153,106,1) 0%, rgba(88,107,96,1) 100%);
+    font-family: "Gemunu Libre";
+    font-size: 40px;
+    letter-spacing: 5px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.lighter__item__first:hover{
+    box-shadow: inset 40px 3px 100px 60px black;
+}
+.lighter__item__first:active {
+    box-shadow: 40px 30px 50px 10px black;
+}
+.lighter__item__first:target {
+    display: block;
+}
+.lighter__item__second {
+    display: none;
+    max-width: 200px;
+    padding: 75px;
+    border-radius: 50%;
+    color: white;
+    background: rgb(46,128,84);
+    background: radial-gradient(circle, rgba(46,128,84,1) 0%, rgba(80,193,96,1) 100%);
+    font-family: "Peralta";
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.lighter__item__second:hover {
+    box-shadow: inset 40px 30px 50px 50px rgba(0, 0, 0, 0.541);
+}
+.lighter__item__second:active {
+    box-shadow: 20px 20px 30px 10px rgba(0, 0, 0, 0.541);
+}
+.lighter__item__second:target{
+    display: block;
+}
+.lighter__item__third {
+    display: none;
+    max-width: 120px;
+    padding: 40px;
+    border-radius: 50%;
+    color: white;
+    background: rgb(91,154,99);
+    background: radial-gradient(circle, rgba(91,154,99,1) 0%, rgba(14,240,46,1) 100%);
+    font-family: "Pacifico";
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+.lighter__item__third:hover {
+    box-shadow: inset 10px 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.lighter__item__third:active {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.lighter__item__third:target {
+    display: block;
+}
+.button {
+    margin-bottom: 100px;
+}
+.button__item {
+    display: none;
+    width: 150px;
+    height: 80px;
+    padding-top: 35px;
+    font-family: "Alkalami";
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(12, 247, 247);
+}
+.button__item:hover {
+    border-radius: 20%;
+}
+.button__item:target {
+    display: block;
+}
+.rules {
+    margin-bottom: 150px;
+}
+.rules__title {
+    display: none;
+    font-family: "Alkalami";
+    font-size:55px;
+    color: black;
+    text-transform: capitalize;
+}
+.rules__title h3:hover::after {
+    content: "Move your mouse very slowly. It will help to read all the rules:)";
+    font-family: "Peralta";
+    font-size: 13px;
+    margin-left: 15px;
+}
+.rules__title:target{
+   display: block;
+}
+.rules__list li{
+    opacity: 0;
+    margin-bottom: 8px;
+}
+.rules__list li:hover{
+    opacity: 1.0;
+}
+.rules__list li:first-child {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(95, 17, 17);
+}
+
+.rules__list li:nth-child(even){
+    font-size: 27px;
+    font-weight: 900;
+    color: cadetblue;
+}
+.rules__list li:nth-child(3){
+    font-style: oblique;
+    font-size: 33px;
+    color: darkgreen;
+}
+.rules__list li:nth-child(5){
+    font-family: monospace;
+    font-size: 31px;
+    color: darkslateblue;
+}
+.rules__list li:last-child{
+    font-family: cursive;
+    font-size: 37px;
+    color: goldenrod;
+}
+.rules__list li::before {
+    content: "-";
+    margin-right: 15px;
+}
+.rules__list li:hover::after {
+    font-family: "Peralta";
+    font-size: 14px;
+    color: darkolivegreen;
+    margin-left: 20px;
+}
+.rules__list li:first-child:hover::after{
+    content: "Some of them can be really useful :)";
+}
+.rules__list li:nth-child(2):hover::after{
+    content: "I wish you good luck :)";
+    text-transform: capitalize;
+}
+.rules__list li:last-child:hover::after{
+    content: "I will try to find you one :)";
+
+}
+.rules__list li:nth-child(4):hover::after{
+    content: "Please click on the title of these rules when you are done";
+}
+
+/* 
+I AM NOT SURE THAT I DID RIGHT WITH ALL THESE MARGIN-LEFT STUFF.*/
+
+.game__container {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 0, 0, 1);
+}
+.lines {
+    margin-bottom: 100px;
+}
+.line__first{
+    width: 60px;
+    height: 100px;
+    background-color:chartreuse;
+    margin-left: 80px;
+    opacity: 0.4;
+}
+.line__first:hover{
+    opacity: 1.0;
+}
+.line__second {
+    width: 737px;
+    height: 60px;
+    background-color:chartreuse;
+    margin-left: 80px;
+    opacity: 0;
+}
+.line__second:hover {
+    opacity: 1.0;
+}
+.line__third {
+    width: 40px;
+    height: 300px;
+    background-color:chartreuse;
+    margin-left: 776px;
+    opacity: 0;
+}
+.line__third:hover {
+    opacity: 1.0;
+}    
+.line__forth {
+    width: 790px;
+    height: 40px;
+    background-color: chartreuse;
+    margin-left: 26px;
+    opacity: 0;
+}
+.line__forth:hover {
+    opacity: 1.0;
+}
+.line__fifth {
+    width: 25px;
+    height: 400px;
+    background-color: chartreuse;
+    margin-left: 26px;
+    opacity: 0;
+}
+.line__fifth:hover {
+    opacity: 1.0;
+}    
+.line__sixth {
+    width: 750px;
+    height: 25px;
+    background-color: chartreuse;
+    margin-left: 26px;
+    opacity: 0;
+}
+.line__sixth:hover {
+    opacity: 1.0;
+}
+.line__seventh {
+    width: 15px;
+    height: 87px;
+    background-color: chartreuse;
+    margin-left: 761px;
+    opacity: 0;
+}
+.line__seventh:hover {
+    opacity: 1.0;
+}
+
+.finish__title {
+    margin-bottom: 80px;
+}
+.finish__title h2{
+     font-size: 38px;
+     color: lightseagreen;
+}
+.apple__box {
+    margin-left: 100px;
+}
+.fa-apple {
+    font-size: 150px;
+    color: greenyellow;
+    text-shadow: 5px 5px green;
+}
+
+
+
+
+
+
+
